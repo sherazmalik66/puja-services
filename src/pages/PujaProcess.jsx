@@ -59,7 +59,7 @@ import Navbar from "./Navbar";
 
 function PujaProcess() {
   const isSmallscreen = useMediaQuery("(max-width: 56.25em)");
-  const [opened, { toggle, close }] = useDisclosure(false);
+  const [opened, { close }] = useDisclosure(false);
 const [selectedItem, setSelectedItem] = useState(null);
   const navigate = useNavigate();
   const images = [image9, image21, image22, image23];
@@ -124,7 +124,7 @@ const [selectedItem, setSelectedItem] = useState(null);
     {
       id: 1,
       price: 851,
-      image: "your-image-url.png", // Replace with actual image URL or import
+      image: "your-image-url.png", 
     },
     {
       id: 2,
@@ -140,12 +140,6 @@ const [selectedItem, setSelectedItem] = useState(null);
       id: 4,
       price: 851,
       image: "your-image-url.png",
-    },
-  ];
-
-  const setItems = [
-    {
-      title: "Joint Family Mahamrityunjaya Mantra jaap",
     },
   ];
 
@@ -272,7 +266,7 @@ const [selectedItem, setSelectedItem] = useState(null);
                         fz={isSmallscreen ? 18 : 27}
                         fw={isSmallscreen ? 700 : 600}
                         color="dark"
-                        // mb="sm"
+                     
                         w={isSmallscreen ? "100%" : "90%"}
                       >
                         Surya-Shani Dosha Nivaran Puja and Pitru Mahadaan
@@ -283,7 +277,7 @@ const [selectedItem, setSelectedItem] = useState(null);
                         <Text
                           fz={16}
                           color="dimmed"
-                          // mb="md"
+                        
                           style={{ lineHeight: 1.4 }}
                           w={isSmallscreen ? "90%" : "90%"}
                         >
@@ -613,7 +607,7 @@ const [selectedItem, setSelectedItem] = useState(null);
                 <Flex
                   justify={isSmallscreen ? "center" : "space-between"}
                   align={isSmallscreen ? "start" : "center"}
-                  // gap={isSmallscreen ? 20 : 0}
+                
                 >
                   <Image
                     display={isSmallscreen ? "none" : "block"}
@@ -1094,7 +1088,7 @@ const [selectedItem, setSelectedItem] = useState(null);
             </>
           ) : (
             <>
-              {/* <Flex justify="center">
+              <Flex justify="center">
                 <Card
                   w="100%"
                   px={isSmallscreen ? 10 : 70}
@@ -1105,7 +1099,7 @@ const [selectedItem, setSelectedItem] = useState(null);
                   <Flex
                     justify={isSmallscreen ? "flex-start" : "space-between"}
                     align={isSmallscreen ? "start" : "center"}
-                    // gap={isSmallscreen ? 20 : 0}
+                 
                   >
                     <Image
                       src={image13}
@@ -1156,7 +1150,7 @@ const [selectedItem, setSelectedItem] = useState(null);
                     />
                   </Flex>
                 </Card>
-              </Flex> */}
+              </Flex>
 
               <SimpleGrid
              
@@ -1931,7 +1925,6 @@ const [selectedItem, setSelectedItem] = useState(null);
                     </Text>
                   </Flex>
                 </Stack>
-                {/* <Button dis bg={"#ED561A"} c={"white"} radius={12} h={46}>Selector Package</Button> */}
               </Card>
             </Flex>
           </Box>
@@ -2562,20 +2555,7 @@ const [selectedItem, setSelectedItem] = useState(null);
                       <IconBrandFacebook />
                     </ActionIcon>
 
-                    {/* <ActionIcon
-                    variant="filled"
-                    size="xl"
-                    radius="xl"
-                    color="white"
-                    style={{
-                      backgroundColor: "#25D366",
-                      position: "relative",
-                      bottom: "-10px",
-                      right: "-10px",
-                    }}
-                  >
-                    <IconBrandTwitter />
-                  </ActionIcon> */}
+                   
                   </Group>
                 </Stack>
               </Flex>

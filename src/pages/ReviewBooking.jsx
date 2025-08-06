@@ -75,7 +75,7 @@ function ReviewBooking() {
   ];
 
   const [members, setMembers] = useState([""]);
-    const handleAddMember = () => {
+  const handleAddMember = () => {
     setMembers((prev) => [...prev, ""]);
   };
 
@@ -585,17 +585,13 @@ function ReviewBooking() {
                                     align="center"
                                     gap="xs"
                                     justify={"space-between"}
-                                    // h={40}
+
                                     style={{
-                                      // position: "absolute",
-                                      // top: 110,
-                                      // left: "50%",
-                                      // transform: "translateX(-50%)",/
                                       width: 120,
                                       backgroundColor: "#157709",
                                       borderRadius: 6,
                                       fontSize: 32,
-                                      // padding: "0 10px",
+
                                     }}
                                   >
                                     <Button
@@ -710,7 +706,7 @@ function ReviewBooking() {
                           display={isSmallscreen ? "none" : "block"}
                         />
 
-                        {/* First input always visible */}
+
                         <Input
                           mt={15}
                           size="lg"
@@ -723,9 +719,9 @@ function ReviewBooking() {
                           }}
                         />
 
-                        {/* Checkbox to add more */}
+
                         <Checkbox
-                     
+
                           radius={2}
                           styles={{
                             label: { cursor: "pointer" },
@@ -742,7 +738,7 @@ function ReviewBooking() {
                           label="Add More Member, click add"
                         />
 
-                        {/* Additional inputs */}
+
                         {showOptions && (
                           <Box mt={15}>
                             {members.map((value, index) => (

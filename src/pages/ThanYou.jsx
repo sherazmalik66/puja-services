@@ -306,7 +306,7 @@ function ThanYou() {
                     src={image6}
                     h={isSmallscreen ? 100 : 162}
                     w={isSmallscreen ? 70 : 103}
-                  // style={{ alignSelf: "center" }}
+                 
                   />
                 </Flex>
               </Card>

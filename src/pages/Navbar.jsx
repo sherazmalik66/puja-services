@@ -43,7 +43,7 @@ function Navbar() {
     { label: "About Us" },
   ];
 
-  // Active condition helper
+  
   const getIsActive = (label, path) => {
     const currentPath = location.pathname;
     if (label === "Home") {
@@ -191,7 +191,7 @@ function Navbar() {
         </Flex>
       </Card>
 
-      {/* Drawer for Small Screens */}
+     
       <Drawer
         opened={opened}
         onClose={close}

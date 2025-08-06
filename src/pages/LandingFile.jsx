@@ -485,7 +485,7 @@ function LandingFile() {
                     src={image10}
                     h={isSmallscreen ? 100 : 250}
                     w={isSmallscreen ? 70 : 262}
-                    // style={{ alignSelf: "center" }}
+                   
                   />
                 </Flex>
               </Card>
@@ -875,7 +875,7 @@ function LandingFile() {
                 <Flex
                   justify={isSmallscreen ? "flex-start" : "space-between"}
                   align={isSmallscreen ? "start" : "center"}
-                  // gap={isSmallscreen ? 20 : 0}
+                 
                 >
                   <Image
                     src={image12}

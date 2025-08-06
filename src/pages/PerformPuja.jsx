@@ -17,7 +17,6 @@ import {
   Text,
   Title,
 } from "@mantine/core";
-// import image1 from "../../assets/images/image-1.png";
 import image2 from "../images/Trident Emblem.webp";
 import image3 from "../images/image-6.png";
 import image4 from "../images/Group-7.png";
@@ -159,7 +158,7 @@ function PerformPuja() {
                     >
                       <Card
                         bg={"#fbdeaa"}
-                        // h={isSmallscreen ? "100%" : 267}
+                       
                         w={isSmallscreen ? "100%" : 190}
                       >
                         <Flex justify={"center"} align={"center"} h={"100%"}>
@@ -195,7 +194,7 @@ function PerformPuja() {
 
                       <Card
                         bg={"#fad1d0"}
-                        // h={isSmallscreen ? "100%" : 267}
+                       
                         w={isSmallscreen ? "100%" : 190}
                       >
                         <Flex justify={"center"} align={"center"} h={"100%"}>
@@ -231,7 +230,7 @@ function PerformPuja() {
 
                       <Card
                         bg={"#fec8b1"}
-                        // h={isSmallscreen ? "100%" : 267}
+                       
                         w={isSmallscreen ? "100%" : 190}
                       >
                         <Flex justify={"center"} align={"center"} h={"100%"}>
@@ -304,7 +303,7 @@ function PerformPuja() {
               <Flex
                 justify={isSmallscreen ? "flex-start" : "space-between"}
                 align={isSmallscreen ? "start" : "center"}
-                // gap={isSmallscreen ? 20 : 0}
+              
               >
                 <Image
                   src={image13}
@@ -356,7 +355,7 @@ function PerformPuja() {
                   src={image14}
                   h={isSmallscreen ? 100 : 162}
                   w={isSmallscreen ? 70 : 103}
-                  // style={{ alignSelf: "center" }}
+                
                 />
               </Flex>
             </Card>
@@ -885,7 +884,7 @@ function PerformPuja() {
             <Card
               pt={80}
               px={50}
-              // py={40}
+            
               style={{
                 backgroundColor: "#FF6F00",
                 color: "white",
