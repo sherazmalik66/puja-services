@@ -29,14 +29,12 @@ import IconChervonDown from "./iconChervonDown";
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
 import { useState } from "react";
 import IconTrash from "./iconTrash";
-import IconPlus from "./iconPlus";
-import IconMinus from "./iconMinus";
 import { useNavigate } from "react-router-dom";
 import Navbar from "./Navbar";
 
 function ReviewBooking() {
   const isSmallscreen = useMediaQuery("(max-width: 56.25em)");
-  const [opened, { toggle, close }] = useDisclosure(false);
+  const [opened, { close }] = useDisclosure(false);
   const [checked, setChecked] = useState(false);
   const [showOptions, setShowOptions] = useState();
   const [inputValue, setInputValue] = useState("");
@@ -54,6 +52,8 @@ function ReviewBooking() {
       setInputValue("");
     }
   };
+
+  console.log(inputValue)
 
   const itemsData = [
     {

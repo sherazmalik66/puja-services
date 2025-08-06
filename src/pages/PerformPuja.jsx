@@ -3,7 +3,6 @@ import {
   Anchor,
   BackgroundImage,
   Box,
-  Burger,
   Button,
   Card,
   CheckIcon,

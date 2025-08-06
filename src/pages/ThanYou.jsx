@@ -39,7 +39,7 @@ import IconBrandFacebook from "./iconFacebook";
 
 function ThanYou() {
   const isSmallscreen = useMediaQuery("(max-width: 56.25em)");
-  const [opened, { toggle, close }] = useDisclosure(false);
+  const [opened, { close }] = useDisclosure(false);
   const navigate = useNavigate();
   return (
     <>
